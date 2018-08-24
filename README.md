@@ -1,2 +1,3 @@
-# Word-Guess-Game
-A word guessing game similar to that of Hangman, written in JavaScript.
+# Word Guessing Game 
+
+Word Guessing Game is a Pokemon themed hangman style game where a play guesses the Pokemon shown in the silhouette image with key presses.

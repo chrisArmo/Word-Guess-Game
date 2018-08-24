@@ -1,0 +1,167 @@
+/* Base */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #22592c;
+    font: 1em "Acme", sans-serif;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (min-width: 816px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+/* Wrapper */
+
+.wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0.4em;
+    background: #17a848 url("../images/pokeball-background.jpg") no-repeat center top;
+    background-size: cover;
+    color: #fff;
+}
+
+/* Header, Main, Section */
+
+header,
+main,
+section {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+@media screen and (min-width: 816px) {
+    header,
+    main,
+    section {
+        width: 85%;
+    }
+}
+
+/* Header */
+
+header {
+    min-height: 208px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background: rgba(200, 198, 199, 0.8);
+    color: #000;
+}
+
+header .title {
+    color: #2298f8;
+}
+
+header .directions span {
+    color: #aa0c27;
+    font-size: 1.1em;
+}
+
+header .output {
+    display: hidden;
+    color: #aa0c27;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+main img,
+main .display {
+    width: 20%;
+    min-width: 200px;
+}
+
+main img {
+    border-radius: 0.4em;
+}
+
+main .endOutput {
+    display: none;
+    width: 100%;
+    padding: 1em;
+    border-radius: 0.3em;
+    background: rgba(200, 198, 199, 0.8);
+    color: #ffe600;
+    font-size: 2em;
+}
+
+main .message {
+    margin-right: 10px;
+}
+
+main .play-btn {
+    position: relative;
+    border: none;
+    background: none;
+    color: #2298f8;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: color 0.2s ease-out;
+    outline: none;
+}
+
+main .play-btn:hover {
+    color: #0d79d1;
+}
+
+main .play-btn:active {
+    top: 1px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+}
+
+main .display {
+    padding: 0.6em 1em;
+    border-radius: 0.5em;
+    background: rgba(204, 114, 88, 0.6);
+    color: #fff;
+    font-size: 1.2em;
+}
+
+@media screen and (min-width: 816px) {
+    main {
+        flex-flow: row wrap;
+        min-height: 280px;
+    }
+
+    main .display {
+        width: initial;
+        margin-left: 10px;
+        font-size: 1.8em;
+    }
+
+    main .message {
+        margin-right: 10%;
+    }
+}
+
+/* Section */
+
+section {
+    background: rgb(13, 155, 13, 0.6);
+    color: #fff;
+}
+
+section span {
+    color: #ffe600;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Catch That Pokemon!</title>
+    <!-- normalize css -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <!-- google fonts css -->
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <!-- style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+<div class="wrapper">
+    <header>
+        <h1 class="title">Catch That Pokemon!</h1>
+
+        <p class="directions"><span>Directions:</span> type a letter on your keyboard to throw a letter Pokeball.</p>
+
+        <p class="output"></p>
+    </header>
+
+    <main>
+        <img src="assets/images/question-crop.png" alt="Black question mark, white background">
+
+        <h2 class="endOutput"><span class="message"></span> <button class="play-btn" type="">Play Again?</button></h2>
+        
+        <h3 class="display"></h3>
+    </main>
+
+    <section>
+        <h4>Pokeballs Remaining: <span class="attempts"></span></h4>
+
+        <h4>Pokeballs Thrown: <span class="guesses"></span></h4>
+    </section>
+</div>
+
+<script src="assets/javascript/game.js"></script>
+    
+</body>
+</html>
