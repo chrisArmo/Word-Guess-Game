@@ -1,3 +1,3 @@
 # Word Guessing Game 
 
-Word Guessing Game is a Pokemon themed hangman style game where a play guesses the Pokemon shown in the silhouette image with key presses.
+Word Guessing Game is a Pokemon themed hangman style game where a player guesses the Pokemon shown in the silhouette image with key presses.
